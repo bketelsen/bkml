@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "DevRel Blox GraphQL API",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "cp -R ../../data/static .vercel_build_output/"
+  },
   "author": "Brian Ketelsen <bketelsen@gmail.com>",
   "license": "MIT",
   "dependencies": {
