@@ -4,7 +4,7 @@
   "description": "DevRel Blox GraphQL API",
   "main": "index.js",
   "scripts": {
-    "build": "cp -R ../../data/static/ public/ && ls -la public"
+    "build": "cp -R ../../data/static/* public/ && ls -la public"
   },
   "author": "Brian Ketelsen <bketelsen@gmail.com>",
   "license": "MIT",
