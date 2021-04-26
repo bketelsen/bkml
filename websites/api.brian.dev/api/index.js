@@ -1,6 +1,6 @@
 const fetch = require("sync-fetch");
 
-import jsonGraphqlExpress from "json-graphql-server";
+const jsonGraphqlExpress = require("json-graphql-server").default
 const jsonServer = require('json-server')
 const app = require("express");
 
