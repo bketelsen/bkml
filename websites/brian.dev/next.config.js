@@ -2,7 +2,7 @@ const withPWA = require('next-pwa');
 
 module.exports = withPWA({
   images: {
-    domains: ['res.cloudinary.com','127.0.0.1'],
+    domains: ['res.cloudinary.com','127.0.0.1','api.brian.dev','azure.brian.dev'],
   },
   future: { webpack5: true },
   pwa: {

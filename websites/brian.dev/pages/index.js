@@ -10,14 +10,14 @@ import { initializeApollo } from "@/lib/apolloClient";
 import { useContext } from "react";
 
 function IndexPage({  posts, homepage }) {
-  const { writer } = useContext(GlobalContext);
+  const { Profile } = useContext(GlobalContext);
 
   return (
     <div className="">
       <SEO seo={homepage.seo} />
 
       {/* hero section */}
-      <Hero writer={writer} title={homepage.title} content={homepage.body} />
+      <Hero writer={Profile} title={homepage.title} content={homepage.body} />
 
 
       {/* article section */}

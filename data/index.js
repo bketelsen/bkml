@@ -18,7 +18,6 @@ app.use(express.static('static'))
 app.use("/graphql", jsonGraphqlExpress(data));
 app.use("/", router);
 
-console.log(data);
 
 const port = process.env.PORT || 4000;
 

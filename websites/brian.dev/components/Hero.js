@@ -1,5 +1,4 @@
 import SocialMedia from './SocialMedia';
-import SubscribeCTA from './SubscribeCTA';
 
 function Hero({ title, content, writer }) {
 
@@ -16,7 +15,7 @@ function Hero({ title, content, writer }) {
         <SocialMedia color="dark" />
       </div>
       <div className="my-8 lg:m-0 w-full lg:w-1/2">
-        <img height={writer.picture.height} width={writer.picture.width} className="object-cover shadow rounded-full h-64 w-64 lg:h-96 lg:w-96 mx-auto lg:mr-0" src={writer.picture.url} alt="main-img" />
+        <img height={writer.Image.height} width={writer.Image.width} className="object-cover shadow rounded-full h-64 w-64 lg:h-96 lg:w-96 mx-auto lg:mr-0" src={writer.Image.file_name} alt="main-img" />
       </div>
     </div>
   );

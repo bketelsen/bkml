@@ -1,5 +1,5 @@
 import { ApolloClient, HttpLink, InMemoryCache } from "@apollo/client";
-
+import {GRAPHQL_URL} from './endpoints';
 import { useMemo } from "react";
 
 export function getAPIURL(path = "") {
@@ -13,7 +13,7 @@ function createApolloClient() {
   return new ApolloClient({
     ssrMode: typeof window === "undefined",
     link: new HttpLink({
-      uri: getAPIURL("graphql"),  // Add your Slash endpoint here
+      uri: GRAPHQL_URL,  // Add your Slash endpoint here
     }),
     cache: new InMemoryCache(),
   });

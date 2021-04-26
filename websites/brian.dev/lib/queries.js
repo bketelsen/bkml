@@ -21,6 +21,28 @@ query filterPage(
   }
 `;
 
+export const WEBSITE_QUERY = gql`
+query filterWebsite(
+  $siteID: ID!
+  ){
+    Website(id: $siteID) {
+      id
+
+      Profile {
+        first_name
+        last_name
+        Image {
+          file_name
+          height
+          width
+        }
+      }
+
+    }
+  }
+`;
+
+
 export const ALL_SECTIONS_QUERY = gql`
 {
   allSections(sortField: "weight", sortOrder: "asc") {
