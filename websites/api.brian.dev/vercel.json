@@ -8,11 +8,6 @@
     {
       "source": "/api/(.*)",
       "destination": "/api"
-    },
-
-    {
-      "source": "/api/graphql/(.*)",
-      "destination": "/api/graphql"
     }
   ]
 }
