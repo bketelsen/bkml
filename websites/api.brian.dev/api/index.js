@@ -2,6 +2,7 @@ const fetch = require("sync-fetch");
 
 import jsonGraphqlExpress from "json-graphql-server";
 const jsonServer = require('json-server')
+const app = require("express");
 
 const data = fetch(
   "https://github.com/bketelsen/bkml/releases/download/blox/data.json"
@@ -10,6 +11,7 @@ const app = require("express")();
 const router = jsonServer.router(data, { foreignKeySuffix: '_id' })
 
 
+app.use(express.static("../../../data/static"));
 app.use("/graphql", jsonGraphqlExpress(data));
 app.use("/", router);
 
