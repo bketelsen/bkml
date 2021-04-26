@@ -8,6 +8,12 @@ social_accounts:
   - network: twitter
     url: "https://twitter.com/bketelsen"
     username: bketelsen
+  - network: github
+    url: "https://github.com/bketelsen"
+    username: bketelsen
+  - network: twitch
+    url: "https://twitch.tv/bketelsen"
+
 ---
 
 Rawkode was here
