@@ -2,7 +2,7 @@ import { ApolloClient, HttpLink, InMemoryCache } from "@apollo/client";
 
 import { useMemo } from "react";
 
-function getAPIURL(path = "") {
+export function getAPIURL(path = "") {
   return `${process.env.API_URL || "https://api.brian.dev/"
     }${path}`;
 }

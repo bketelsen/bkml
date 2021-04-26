@@ -2,6 +2,9 @@ import Image from 'next/image'
 import SEO from '@/components/SEO'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { formatContentfulDate } from '@/utils/helpers'
+function imageURL(name) {
+  return process.env.NEXT_PUBLIC_API_URL + name;
+}
 
 const renderers = {
   code: ({ language, value }) => {
@@ -12,7 +15,7 @@ const renderers = {
 
 
 function Post({ post,children }) {
-  const { title, image, publish_date } = post
+  const { title, publish_date } = post
   const seo = {
     metaTitle: title
   };
@@ -24,7 +27,7 @@ function Post({ post,children }) {
       <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white">{title}</h1>
       <p className="text-sm text-center text-gray-700 dark:text-gray-200 my-2 sm:mb-4">{formatContentfulDate(publish_date)}</p>
       <div className="prose prose-dark text-lg text-gray-800 dark:text-gray-100 container mx-auto p-4 sm:p-8">
-        <Image className="rounded-sm object-cover object-center w-full h-72 sm:h-96 md:h-120 py-2" width={1000} layout='responsive' height={1000} alt={title | title} priority='true' src={image} />
+        <Image className="rounded-sm object-cover object-center w-full h-72 sm:h-96 md:h-120 py-2" width={post.Image.width} layout='responsive' height={post.Image.height} alt={title | title} priority='true' src={imageURL(post.Image.file_name)} />
       {children}
 
       </div>

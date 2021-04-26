@@ -1,9 +1,10 @@
-import { getArticle, getArticleSlugs } from "@/lib/cms";
+import {ARTICLE_QUERY, ARTICLE_SLUGS_QUERY} from '@/lib/queries';
 
 import Bleed from '@/components/mdx/bleed'
 import Callout from '@/components/mdx/callout'
 import PostContent from '@/components/PostContent';
 import hydrate from 'next-mdx-remote/hydrate'
+import { initializeApollo } from "@/lib/apolloClient";
 import renderToString from 'next-mdx-remote/render-to-string'
 
 const components = { Bleed,Callout }
@@ -17,9 +18,15 @@ function Post({ source, post }) {
 }
 
 export async function getStaticPaths() {
-  const blogPostSlugs = await getArticleSlugs();
+  const apolloClient = initializeApollo();
+  const page = await
+    apolloClient.query({
+      query: ARTICLE_SLUGS_QUERY,
+    });
 
-  const paths = blogPostSlugs.map(({id}) => {
+  var articles = page.data.allArticles
+
+  const paths = articles.map(({id}) => {
     return {
       params: { slug: id }
     }
@@ -32,7 +39,18 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const post = await getArticle(params.slug)
+  const apolloClient = initializeApollo();
+  const page = await
+    apolloClient.query({
+      query: ARTICLE_QUERY,
+      variables: {
+        articleID: params.slug,
+      }
+
+    });
+
+  var post = page.data.Article
+  console.log(post)
   const mdxSource = await renderToString(post.body,{components})
 
 

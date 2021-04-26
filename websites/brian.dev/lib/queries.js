@@ -38,9 +38,11 @@ export const ALL_SECTIONS_QUERY = gql`
 `;
 
 export const ARTICLE_QUERY = gql`
-{
+query filterArticle(
+  $articleID: ID!
+  ){
   Article(
-    id: "hello-world"){
+    id: $articleID){
     id
     body
     title
