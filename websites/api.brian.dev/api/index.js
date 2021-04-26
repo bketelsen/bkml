@@ -12,7 +12,7 @@ const router = jsonServer.router(data, { foreignKeySuffix: '_id' })
 
 
 app.use("/graphql", jsonGraphqlExpress(data));
-app.use("/", router);
+app.use("/api", router);
 
 console.log(data);
 

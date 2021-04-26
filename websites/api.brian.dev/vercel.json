@@ -4,16 +4,5 @@
       "maxDuration": 5
     }
   },
-  "rewrites": [
-
-    {
-      "source": "/api/graphql/(.*)",
-      "destination": "/api/graphql"
-    },
-    {
-      "source": "/api/(.*)",
-      "destination": "/api"
-    }
-
-  ]
+    "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
 }
