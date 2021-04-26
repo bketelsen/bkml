@@ -25,8 +25,6 @@ function Post({ post,children }) {
   return (
     <div className="mx-auto my-8 md:my-12 w-full">
       <SEO seo={seo} />
-
-
       <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white">{title}</h1>
       <p className="text-sm text-center text-gray-700 dark:text-gray-200 my-2 sm:mb-4">{formatContentfulDate(publish_date)}</p>
       <div className="prose prose-dark text-lg text-gray-800 dark:text-gray-100 container mx-auto p-4 sm:p-8">

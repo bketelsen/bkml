@@ -2,12 +2,13 @@ import {ARTICLE_QUERY, ARTICLE_SLUGS_QUERY} from '@/lib/queries';
 
 import Bleed from '@/components/mdx/bleed'
 import Callout from '@/components/mdx/callout'
+import Image from '@/components/mdx/Image'
 import PostContent from '@/components/PostContent';
 import hydrate from 'next-mdx-remote/hydrate'
 import { initializeApollo } from "@/lib/apolloClient";
 import renderToString from 'next-mdx-remote/render-to-string'
 
-const components = { Bleed,Callout }
+const components = { Bleed,Callout,Image }
 
 function Post({ source, post }) {
   const content = hydrate(source,{components})
