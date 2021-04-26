@@ -8,6 +8,8 @@
     "execMap": {
         "md": "blox build",
         "mdx": "blox build",
+        "yaml": "blox build",
+        "yml": "blox build",
         "jpg": "blox build",
         "jpeg": "blox build",
         "png": "blox build",
@@ -22,5 +24,5 @@
     "env": {
         "NODE_ENV": "development"
     },
-    "ext": "md,mdx,jpg,jpeg,png,gif"
+    "ext": "yml,yaml,md,mdx,jpg,jpeg,png,gif"
 }
