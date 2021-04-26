@@ -9,6 +9,9 @@ function imageURL(name) {
 const renderers = {
   code: ({ language, value }) => {
     return <SyntaxHighlighter style={vs} language={language} children={value} />
+  },
+  img: ({ src}) => {
+    return <img src={imageURL(src)} />
   }
 }
 
