@@ -11,7 +11,6 @@ const app = require("express")();
 const router = jsonServer.router(data, { foreignKeySuffix: '_id' })
 
 
-app.use(express.static("../../../data/static"));
 app.use("/graphql", jsonGraphqlExpress(data));
 app.use("/", router);
 

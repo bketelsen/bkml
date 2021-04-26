@@ -11,7 +11,7 @@
     },
 
     {
-      "source": "/graphql/(.*)",
+      "source": "/api/graphql/(.*)",
       "destination": "/api/graphql"
     }
   ]
