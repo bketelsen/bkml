@@ -2,7 +2,7 @@ const fetch = require("sync-fetch");
 
 const jsonGraphqlExpress = require("json-graphql-server").default
 const jsonServer = require('json-server')
-const app = require("express");
+const express = require("express");
 
 const data = fetch(
   "https://github.com/bketelsen/bkml/releases/download/blox/data.json"
