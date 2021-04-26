@@ -30,9 +30,7 @@ function IndexPage({  posts, homepage }) {
       <BlogCta />
 
       {/* subscribe cta section */}
-      <div className="px-4 mb-8 sm:mb-12 mx-auto max-w-xl">
         <SubscribeCTA />
-      </div>
     </div>
   )
 }

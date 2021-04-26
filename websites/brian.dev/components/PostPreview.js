@@ -18,7 +18,7 @@ function PostPreview({ featured, slug, date, image, title, description }) {
           {description}
         </div>
         {featured && (
-          <span className="absolute rounded pl-2 pr-2 top-2 right-2 bg-palette-dark dark:text-gray-900 text-white">Featured</span>
+          <span className="absolute rounded pl-2 pr-2 top-2 right-2 bg-palette-dark dark:bg-palette-light dark:text-gray-900 text-white">Featured</span>
         )}
       </div>
     </Link>
