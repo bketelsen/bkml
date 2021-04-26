@@ -1,6 +1,6 @@
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
-export function getAPIURL(path = "") {
-  return `${process.env.API_URL || "https://api.brian.dev/graphql"
+export function getAPIURL(path = "/graphql") {
+  return `${process.env.API_URL || "https://api.brian.dev/"
     }${path}`;
 }
 
@@ -17,7 +17,7 @@ export async function getPage(slug) {
     id
     excerpt
     draft
-    image
+    image_id
     title
     body
     image
@@ -66,7 +66,7 @@ export async function getArticle(slug) {
         featured
         draft
         publish_date
-        image
+        image_id
         last_edit_date
         edit_description
 
@@ -92,7 +92,7 @@ export async function getArticlesHome() {
         featured
         draft
         publish_date
-        image
+        image_id
         last_edit_date
         edit_description
 
@@ -116,7 +116,7 @@ export async function getAllArticles() {
         featured
         draft
         publish_date
-        image
+        image_id
         last_edit_date
         edit_description
 
@@ -159,7 +159,7 @@ export async function getFeaturedArticlesHome() {
         featured
         draft
         publish_date
-        image
+        image_id
         last_edit_date
         edit_description
 

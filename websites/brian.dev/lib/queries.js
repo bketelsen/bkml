@@ -8,10 +8,13 @@ query filterPage(
       id
       excerpt
       draft
-      image
       title
       body
-      image
+      Image {
+        file_name
+        height
+        width
+      }
       tags
       publish_date
     }
@@ -45,7 +48,11 @@ export const ARTICLE_QUERY = gql`
     featured
     draft
     publish_date
-    image
+    Image {
+      file_name
+      height
+      width
+    }
     last_edit_date
     edit_description
 
@@ -64,7 +71,11 @@ export const ALL_ARTICLES_QUERY = gql`
     featured
     draft
     publish_date
-    image
+    Image {
+      file_name
+      height
+      width
+    }
     last_edit_date
     edit_description
 
@@ -84,7 +95,11 @@ export const ARTICLES_HOME_QUERY = gql`
     featured
     draft
     publish_date
-    image
+    Image {
+      file_name
+      height
+      width
+    }
     last_edit_date
     edit_description
 
@@ -115,7 +130,11 @@ export const FEATURED_ARTICLES_HOME_QUERY = gql`
     featured
     draft
     publish_date
-    image
+    Image {
+      file_name
+      height
+      width
+    }
     last_edit_date
     edit_description
 

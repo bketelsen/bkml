@@ -61,7 +61,7 @@ function ArticleList({ posts, showPagination }) {
                 featured={node.featured}
                 slug={node.id}
                 date={node.publish_date}
-                image={node.image}
+                image={node.Image}
                 title={node.title}
                 description={node.excerpt}
               />

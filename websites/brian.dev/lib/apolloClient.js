@@ -1,6 +1,7 @@
 import { ApolloClient, HttpLink, InMemoryCache } from "@apollo/client";
 
 import { useMemo } from "react";
+
 function getAPIURL(path = "") {
   return `${process.env.API_URL || "https://api.brian.dev/graphql"
     }${path}`;
@@ -8,10 +9,11 @@ function getAPIURL(path = "") {
 let apolloClient;
 
 function createApolloClient() {
+  console.log(getAPIURL("graphql"));
   return new ApolloClient({
     ssrMode: typeof window === "undefined",
     link: new HttpLink({
-      uri: getAPIURL(),  // Add your Slash endpoint here
+      uri: getAPIURL("graphql"),  // Add your Slash endpoint here
     }),
     cache: new InMemoryCache(),
   });
