@@ -8,6 +8,8 @@ const data = fetch(
   "https://github.com/bketelsen/bkml/releases/download/blox/data.json"
 ).json();
 const app = require("express")();
+var cors = require('cors')
+app.use(cors())
 const router = jsonServer.router(data, { foreignKeySuffix: '_id' })
 
 

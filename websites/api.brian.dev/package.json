@@ -9,6 +9,7 @@
   "author": "Brian Ketelsen <bketelsen@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "glob": "^7.1.6",
     "json-graphql-server": "^2.2.0",
     "json-server": "^0.16.3",
