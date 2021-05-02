@@ -8,4 +8,4 @@ tags:
 image_id: architecture
 ---
 
-Most outstanding NodeJS person in this universe. One of the best people all around.  period.
+Most amazing NodeJS person in this universe. One of the best people all around.  period.
