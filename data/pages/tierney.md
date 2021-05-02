@@ -8,4 +8,4 @@ tags:
 image_id: architecture
 ---
 
-Best NodeJS person ever. One of the best people all around.
+Best NodeJS person I know. One of the best people all around.
