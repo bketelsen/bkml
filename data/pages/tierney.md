@@ -8,4 +8,4 @@ tags:
 image_id: architecture
 ---
 
-Best NodeJS person in this state. One of the best people all around.  period.
+Best NodeJS person in this country. One of the best people all around.  period.
