@@ -18,11 +18,12 @@ app.use(
     imageAdapter: new fsAdapter(path.join(__dirname, '..', '..', 'app','images')),
   }));
 app.use('/api/graphql', jsonGraphqlExpress(data));
-app.use("/api", router);
 app.use(
   '/api/images/*',
   expressSharp({
     imageAdapter: new fsAdapter(path.join(__dirname, '..', '..', 'app','images')),
   }));
+
+app.use("/api", router);
 
 module.exports = createHandler(app);
