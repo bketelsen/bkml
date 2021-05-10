@@ -12,14 +12,9 @@ const data = fetch('https://github.com/bketelsen/bkml/releases/download/blox/dat
 const router = jsonServer.router(data, { foreignKeySuffix: '_id' })
 const app = require('express')();
 
-app.use(
-  '/api/images',
-  expressSharp({
-    imageAdapter: new fsAdapter(path.join(__dirname, '..', '..', 'app','images')),
-  }));
 app.use('/api/graphql', jsonGraphqlExpress(data));
 app.use(
-  '/api/images/*',
+  '/api/g/*',
   expressSharp({
     imageAdapter: new fsAdapter(path.join(__dirname, '..', '..', 'app','images')),
   }));
