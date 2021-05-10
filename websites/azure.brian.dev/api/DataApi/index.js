@@ -14,7 +14,7 @@ const app = require('express')();
 
 app.use('/api/graphql', jsonGraphqlExpress(data));
 app.use(
-  '/api/g/',
+  '/api/g/{:capture}',
   expressSharp({
     imageAdapter: new fsAdapter(path.join(__dirname, '..', '..', '..','app','images')),
   }));
