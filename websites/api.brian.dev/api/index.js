@@ -2,7 +2,6 @@ const fetch = require("sync-fetch");
 
 const jsonGraphqlExpress = require("json-graphql-server").default
 const jsonServer = require('json-server')
-const express = require("express");
 
 const data = fetch(
   "https://github.com/bketelsen/bkml/releases/download/blox/data.json"
@@ -14,9 +13,8 @@ const router = jsonServer.router(data, { foreignKeySuffix: '_id' })
 
 
 app.use("/api/graphql", jsonGraphqlExpress(data));
-app.use("/api", router);
+app.use("/api/rest", router);
 
-console.log(data);
 
 const port = process.env.PORT || 3000;
 

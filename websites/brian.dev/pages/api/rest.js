@@ -6,10 +6,11 @@ const data = fetch(
   "https://github.com/bketelsen/bkml/releases/download/blox/data.json"
 ).json();
 
+const router = jsonServer.router(data, { foreignKeySuffix: '_id' })
 
 
 const handler = nc()
-  .use("/api/rest", jsonServer(data))
+  .use("/api/rest", router)
 
 export default handler;
 
