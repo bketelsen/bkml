@@ -1,5 +1,5 @@
 const fetch = require('sync-fetch');
-
+const path = require('path');
 const jsonGraphqlExpress = require('json-graphql-server').default;
 const createHandler = require("azure-function-express").createHandler;
 const jsonServer = require('json-server')
