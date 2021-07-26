@@ -11,6 +11,10 @@ kill_timeout = 5
   allowed_public_ports = []
   auto_rollback = true
 
+[[statics]]
+  guest_path = "/data/static"
+  url_prefix = "/static"
+
 [[services]]
   http_checks = []
   internal_port = 8080
