@@ -16,9 +16,9 @@
 		description:       string @template("I found this interesting thing...")
 		draft:             bool | *false
 		publish_date:      string @template("2021-01-01")
-		image?:            string
-		category_id?:      string
-		profile_id?:       string @template("bketelsen")
+		image?:         string @relationship(Image)
+		category?: 	   string @relationship(Category)
+		profile?:  	   string @relationship(Profile)
 	}
 
 }

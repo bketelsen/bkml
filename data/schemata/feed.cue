@@ -14,9 +14,9 @@
 		link:              string @template("https://www.brian.dev")
 		description:       string @template("I found this interesting thing...")
 		draft:             bool | *false
-		image?:            string
-		category_id?: string
-		profile_id?:  string
+		image?:         string @relationship(Image)
+		category?: 	   string @relationship(Category)
+		profile?:  	   string @relationship(Profile)
 	}
 
 }

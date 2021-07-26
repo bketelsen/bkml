@@ -3,7 +3,7 @@ first_name: Brian
 last_name: Ketelsen
 company: Microsoft
 title: Principal Cloud Developer Advocate
-image_id: brian
+image: brian
 social_accounts:
   - network: twitter
     url: "https://twitter.com/bketelsen"

@@ -10,7 +10,7 @@
 			supportedExtensions: ["yaml", "yml"]
 		}
 
-		file_name:        	string 
+		file_name:        	string
 		width:      		int
 		height:        		int
 		alt_text?:			string
