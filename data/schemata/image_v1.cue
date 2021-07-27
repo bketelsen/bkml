@@ -13,6 +13,7 @@
 		file_name:        	string
 		width:      		int
 		height:        		int
+    cdn?: string
 		alt_text?:			string
 		caption?:			string
 		attribution?:		string

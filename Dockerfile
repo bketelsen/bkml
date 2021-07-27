@@ -1,2 +1,2 @@
-FROM bketelsen/bloxhandler:v9
+FROM bketelsen/bloxhandler:v10
 COPY ./data /data
