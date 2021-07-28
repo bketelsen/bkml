@@ -1,8 +1,8 @@
 ---
-title: bash helpers for quick installs
+title: Bash Helpers for Quick Installs
 publish_date: "2020-08-14"
 image: 4pPzKfd6BEg
-excerpt: 'a quick helper function and directory layout for repeatable software installs.'
+excerpt: 'A quick helper function and directory layout for repeatable software installs.'
 tags:
   - linux
   - open source
