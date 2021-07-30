@@ -7,6 +7,8 @@ tags:
   - linux
   - open source
   - terminal
+profile: bketelsen
+
 ---
 
 This bash setup is the latest evolution of my quest to make a new system install as fast as possible.
