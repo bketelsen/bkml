@@ -6,6 +6,8 @@ tags:
   - recipes
 title: 'Tasty Worms'
 excerpt: Blessed is the Maker
+profile: bketelsen
+
 ---
 
 A coworker sent me a link to this recipe and I have to share it. It's the tastiest looking sandworm ever.

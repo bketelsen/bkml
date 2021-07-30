@@ -6,6 +6,8 @@ tags:
   - vscode
   - development
 publish_date: "2018-12-05"
+profile: bketelsen
+
 ---
 
 The [Visual Studio Code](https://code.visualstudio.com/) team just [announced](https://cda.ms/RN) perhaps the most eagerly anticipated feature yet. Remote editing.

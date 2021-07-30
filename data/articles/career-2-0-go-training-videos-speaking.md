@@ -6,6 +6,8 @@ tags:
   - training
 title: 'Career 2.0 - Go Training, Videos, Speaking'
 excerpt: 'Career 2.0 - Go Training, Videos, Speaking'
+profile: bketelsen
+
 ---
 
 A week ago I decided to start a new journey. While I truly enjoyed working with Blake Mizerany and the team at [backplane](http://backplane.io), I felt I really had a passion for training and growing the Go community and I decided I owe it to myself to pursue it.

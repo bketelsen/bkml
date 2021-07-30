@@ -8,6 +8,8 @@ tags:
   - linux
   - open source
   - 30daywslchallenge
+profile: bketelsen
+
 ---
 
 In this article I share my learnings on remotely accessing your Windows 10 computer. My motivation was to determine efficient ways to access both the Windows environment, and the WSL2 development environment from another computer.

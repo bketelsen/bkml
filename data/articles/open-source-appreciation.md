@@ -5,6 +5,7 @@ tags:
   - open-source
 title: 'Open Source Appreciation'
 excerpt: I've never been shy about sharing my love for Open Source. I love creating things, and I love sharing them with others. One of my particular joys with Open Source Software, however, is finding new projects that excite me.
+profile: bketelsen
 
 ---
 

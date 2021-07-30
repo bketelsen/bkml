@@ -6,6 +6,8 @@ tags:
 title: 'Retractable Green Screen On the Cheap'
 excerpt: Quick post to write up how I built a retractable green screen mount on my wall for not much money
 image: 2018/10/IMG_1380-1
+profile: bketelsen
+
 ---
 
 

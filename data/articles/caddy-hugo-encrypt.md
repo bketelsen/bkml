@@ -5,6 +5,8 @@ tags:
   - open-source
 title: "Caddy and Let's Encrypt"
 excerpt: Caddy and Let's Encrypt
+profile: bketelsen
+
 ---
 
 I spent all of 5 minutes configuring [Caddy](https://caddyserver.com) to automatically pull content from github, post-process it with [hugo](http://gohugo.io) and serve it up with fresh SSL/TLS certificates from Let's Encrypt.

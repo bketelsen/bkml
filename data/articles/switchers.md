@@ -9,6 +9,8 @@ tags:
   - mac
 title: 'Switching - Irony and Operating systems'
 excerpt: Moving to Windows from macOS
+profile: bketelsen
+
 ---
 
 TLDR; I've traded in my Mac on a Surface Pro. Here's why:

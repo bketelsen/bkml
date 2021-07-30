@@ -6,6 +6,8 @@ image: eggbites
 excerpt: 'Quick Recipe for a home-made version of Starbucks Sous-vide Egg Bites'
 tags:
   - recipe
+profile: bketelsen
+
 ---
 
 This post is a change from the usual technical content. I made my own Egg Bites this morning, inspired by the delicious ones I like to get at Starbucks.

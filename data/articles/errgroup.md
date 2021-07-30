@@ -5,6 +5,8 @@ tags:
   - go
 title: 'sync.ErrGroup'
 excerpt: In this article for O'Reilly I explore the new sync.ErrGroup package.
+profile: bketelsen
+
 ---
 
 In this article for O'Reilly I explore the new sync.ErrGroup package.

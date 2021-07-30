@@ -6,6 +6,8 @@ tags:
   - linux
 excerpt: 'Running i3 Window Manager on Bash For Windows'
 title: 'Running i3 Window Manager on Bash For Windows'
+profile: bketelsen
+
 ---
 
 That might be the longest title for a blog post ever, but it's kind of hard to describe what's going on here if you're not familiar with the latest updates from Microsoft land. Here's a quick refresher:

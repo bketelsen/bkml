@@ -5,6 +5,8 @@ tags:
 title: 'Getting Crazy with Windows Subsystem for Linux'
 excerpt: Getting Crazy with Windows Subsystem for Linux
 image: 2017/12/startmenu
+profile: bketelsen
+
 ---
 
 Lately I've been on a [mission](https://blog.gopheracademy.com/advent-2017/repeatable-isolated-dev-environments/) to separate my development environments by project, and by category (personal/work/Gophercon/etc). The writeup on the Gopheracademy blog describes a fun way to create an isolated container-based environment for each project by using LXD on Ubuntu.

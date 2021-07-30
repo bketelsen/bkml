@@ -6,6 +6,8 @@ tags:
   - javascript
 title: 'New Tricks - notes as I learn modern front-end development'
 excerpt: Notes as I learn modern front-end development
+profile: bketelsen
+
 ---
 
 I promised [here](https://brianketelsen.com/opensource/) that I would document my progress learning frontend development. This isn't a book-length treatise on the subject, but I do have a few notes about my progress.

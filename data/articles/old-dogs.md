@@ -7,6 +7,8 @@ tags:
   - css
 title: 'Old Dogs, New Tricks, and Cognitive Bias'
 excerpt: Learning is hard, breaking habits is harder
+profile: bketelsen
+
 ---
 
 For 15 or more years I have told myself that I can't do frontend web work. I remember seeing a presentation from a co-worker on CSS in 2003 or so, and thinking it was just too complicated. I've always been the guy behind the scenes building the services that power the web, but never the one spending any time making them less ugly.

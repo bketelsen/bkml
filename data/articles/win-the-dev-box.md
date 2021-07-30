@@ -8,6 +8,8 @@ tags:
   - linux
   - open source
   - 30daywslchallenge
+profile: bketelsen
+
 ---
 
 I've long used macOS or Linux when I make my Open Source contributions, but I think that the time is right to try Windows as a full-time development environment. If you want to jump on board, this article series is for you!
