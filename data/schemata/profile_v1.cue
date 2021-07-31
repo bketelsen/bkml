@@ -17,23 +17,10 @@
 		title?:     string @template("Cue Slinger")
 		body?:      string @template("☕️ Required")
 		image?:            string @relationship(Image)
-		social_accounts?: [...#TwitterAccount | #GitHubAccount | #MiscellaneousAccount]
-	}
-
-	#TwitterAccount: {
-		network:  "twitter"
-		username: string @template("twitter-handle")
-		url:      *"https://twitter.com/\(username)" | string
-	}
-
-	#GitHubAccount: {
-		network:  "github"
-		username: string @template("github-handle")
-		url:      *"https://github.com/\(username)" | string
-	}
-
-	#MiscellaneousAccount: {
-		network: string @template("some_network")
-		url:     string @template("https://some_url")
-	}
+		avatar?:            string @relationship(Image)
+    twitter?:   string @template("bketelsen")
+    github?:   string @template("bketelsen")
+    youtube?:   string @template("bketelsen")
+    twitch?:   string @template("bketelsen")
+  }
 }

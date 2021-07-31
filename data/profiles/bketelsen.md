@@ -4,16 +4,11 @@ last_name: Ketelsen
 company: Microsoft
 title: Principal Cloud Developer Advocate
 image: brian
-social_accounts:
-  - network: twitter
-    url: "https://twitter.com/bketelsen"
-    username: bketelsen
-  - network: github
-    url: "https://github.com/bketelsen"
-    username: bketelsen
-  - network: twitch
-    url: "https://twitch.tv/bketelsen"
-
+avatar: main/bri
+twitter: bketelsen
+github: bketelsen
+youtube: bketelsen
+twitch: bketelsen
 ---
 
 Rawkode was here
