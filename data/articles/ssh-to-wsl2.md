@@ -81,7 +81,7 @@ Then specify port 2222:
 
 Specify "Allow"
 
-![Allow](/static/mages/wsl/allow.png)
+![Allow](/static/images/wsl/allow.png)
 
 Then uncheck "Public" when it asks which networks to apply these rules to. If you're on a public network, we don't want anybody trying to get ssh access anywhere.
 

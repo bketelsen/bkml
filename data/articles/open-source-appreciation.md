@@ -29,13 +29,13 @@ I spent the next few days shouting from the mountain tops about my newfound love
 
 I was talking with Matt Holt, author of another of my favorite open source projects [Caddy](https://caddyserver.com), and our discussion evolved into the various ways we like to show appreciation for software projects we like and use. I've told Matt dozens of times how much I love and appreciate Caddy. And I believe that he enjoys hearing it. Some of the ways of showing appreciation we listed:
 
-1.  Open an issue on the GitHub repository with a quick thank you note. "No problem with your software, just wanted to let you know I'm using it and love it." or "I really love the way you solved X problem by doing Y, I learned a lot, thanks!" I do this frequently and it's always received well.
+1. Open an issue on the GitHub repository with a quick thank you note. "No problem with your software, just wanted to let you know I'm using it and love it." or "I really love the way you solved X problem by doing Y, I learned a lot, thanks!" I do this frequently and it's always received well.
 
-1.  Send the author(s) a thanks on Twitter if you know their Twitter handle. Simple and direct, and who doesn't love hearing that someone is using their project?
+1. Send the author(s) a thanks on Twitter if you know their Twitter handle. Simple and direct, and who doesn't love hearing that someone is using their project?
 
-1.  If the project has a developer mailing list or IRC/Slack/Gitter channel, pop in and say the same thing.
+1. If the project has a developer mailing list or IRC/Slack/Gitter channel, pop in and say the same thing.
 
-1.  Write a blog post about the software/project and how you use it or why you like it. I set up Google News Alerts on new projects and it's always a treat when I get an email from Google listing a blog post about one of my projects.
+1. Write a blog post about the software/project and how you use it or why you like it. I set up Google News Alerts on new projects and it's always a treat when I get an email from Google listing a blog post about one of my projects.
 
 I'm sure you can think of dozens of other ways to show your appreciation for the Open Source Software you use. None of them are particularly burdensome or time consuming. And they almost always have a postive impact.
 
