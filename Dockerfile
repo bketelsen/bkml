@@ -41,9 +41,7 @@ COPY --from=builder /etc/ssl/certs /etc/ssl/certs
 ENV PORT 8080
 
 RUN mkdir /data
-COPY data /data
 WORKDIR /data
-RUN ls -la /data
 # Drop privileges for non-UID mapped environments
 USER nobody
 
