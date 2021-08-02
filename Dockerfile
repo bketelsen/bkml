@@ -40,7 +40,7 @@ COPY --from=builder /etc/ssl/certs /etc/ssl/certs
 # Server port to listen
 ENV PORT 8080
 
-RUN mkdir /data
+RUN mkdir -p /data
 WORKDIR /data
 # Drop privileges for non-UID mapped environments
 USER nobody
